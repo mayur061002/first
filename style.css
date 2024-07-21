@@ -118,17 +118,22 @@ html,body{
     background-image: url(https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
 }
 
-@media(max-width: 500px){
+@media(max-width: 768px){
     #main{
         flex-direction: column;
+        align-items: center;
 
     }
     #main #left{
         width: 100%;
 
     }
-    #mian #right{
+    #main #right{
         width: 100%;
         
+    }
+    #textcenter h1{
+        margin-top: 30px;
+        font-size: 50px;
     }
 }
